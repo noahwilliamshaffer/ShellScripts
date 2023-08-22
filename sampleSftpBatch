@@ -1,0 +1,11 @@
+// Change the local directory to where you would like your files to be saved to (or downloaded from).
+// Example:
+lcd Desktop
+// Add more or fewer commands as necessary to tailor to your needs.
+// Change the remote directory to where you would like your files to be downloaded from (or saved to).
+// Example:
+cd directory
+// To download a directory, use the -r flag. This will copy all files in the remote machine's directory to the current local directory (Desktop)
+get -r directory
+// Alternatively, use the 'put' command to save files from your local machine to the remote machine
+// see sftp manual for more flags and commands

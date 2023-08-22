@@ -1,0 +1,3 @@
+#!/bin/bash
+# bash script simply uses sftp command with the -b flag to tell sftp input will come from the batch file.
+sftp -b sampleSftpBatch user@host
